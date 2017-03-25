@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">安卓实验 - 胡斌强</string>
+
+    <string name="lab1">实验一：第一个Android程序</string>
+
+    <string name="lab2">实验二：Android布局</string>
+    <string name="lab2_1">实验二：Android布局之线性布局</string>
+    <string name="lab2_2">实验二：Android布局之相对布局</string>
+    <string name="lab2_3">实验二：Android布局之表格布局</string>
+
+    <string name="lab3">实验三：Android UI组件</string>
+    <string name="lab3_1">实验三：Android UI组件之ListView</string>
+
+    <string name="hello">你好，胡斌强</string>
+</resources>
