@@ -28,7 +28,7 @@ Android Studio 安卓项目目录结构思维导图
 
 ![实验三之表格布局](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab2_3.jpg)
 
-## 实验二：Android UI组件
+## 实验三：Android UI组件
 ### 效果截图
 
 ![实验三之ListView](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab3_1.jpg)
