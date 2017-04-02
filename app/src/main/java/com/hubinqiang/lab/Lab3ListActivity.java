@@ -22,7 +22,7 @@ public class Lab3ListActivity extends AppCompatActivity {
 
         initAnimals();
 
-        Lab2ListAnimalAdapter adapter = new Lab2ListAnimalAdapter(Lab3ListActivity.this, R.layout.activity_lab3_list_animal, animalList);
+        Lab3ListAnimalAdapter adapter = new Lab3ListAnimalAdapter(Lab3ListActivity.this, R.layout.activity_lab3_list_animal, animalList);
 
         ListView listView = (ListView) findViewById(R.id.list_item);
 

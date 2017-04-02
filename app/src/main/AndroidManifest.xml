@@ -52,8 +52,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".Lab3ListActivity"
             android:label="@string/lab3_1">
@@ -63,8 +61,33 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Lab3AlertDialogActivity"
+            android:label="@string/lab3_2">
+            <intent-filter>
+                <action android:name="com.hubinqiang.lab.ACTION_START_LAB3" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lab3MenuActivity"
+            android:label="@string/lab3_3">
+            <intent-filter>
+                <action android:name="com.hubinqiang.lab.ACTION_START_LAB3" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lab3ActionModeActivity"
+            android:label="@string/lab3_4">
+            <intent-filter>
+                <action android:name="com.hubinqiang.lab.ACTION_START_LAB3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
