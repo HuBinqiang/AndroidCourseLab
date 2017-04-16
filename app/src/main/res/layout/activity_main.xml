@@ -25,5 +25,20 @@
         android:text="@string/lab3"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/lab4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab4"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/lab5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab5"
+        android:textAllCaps="false"/>
+
+
 
 </LinearLayout>

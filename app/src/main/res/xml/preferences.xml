@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="In-line preferences">
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:summary="This is a checkbox"
+            android:title="Checkbox preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Dialog-based preferences">
+        <EditTextPreference
+            android:key="edit_preference"
+            android:summary="An example that uses an edit text dialog"
+            android:title="Edit text preference" />
+        <ListPreference
+            android:key="list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:summary="An example that uses a list dialog"
+            android:title="List preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Launch preferences">
+        <PreferenceScreen
+            android:key="screen_preference"
+            android:summary="Shows another screen"
+            android:title="Screen preference">
+            <!-- 你可以在这里放置更多的首选项内容，将被在下一个页面呈现出来 -->
+            <CheckBoxPreference
+                android:key="next_screen_checkbox_preference"
+                android:summary="在另一个页面展示但出于同一个层级的首选项配置"
+                android:title="复选框设置" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="Launches and Activity from an Intent"
+            android:title="Intent preference">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://hubinqiang.com" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="preference attributes">
+        <CheckBoxPreference
+            android:key="parent_checkbox_preference"
+            android:summary="This is visually a parent"
+            android:title="Parent checkbox preference" />
+        <!-- 子类的可见类型是由样式属性定义的 -->
+        <CheckBoxPreference
+            android:dependency="parent_checkbox_preference"
+            android:key="child_checkbox_preference"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="This is visually a parent"
+            android:title="Child checkbox preference" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

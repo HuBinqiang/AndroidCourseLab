@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hubinqiang.lab">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -88,6 +90,26 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Lab4PreferenceActivity"
+            android:label="@string/lab4">
+
+            <action android:name="com.hubinqiang.lab.ACTION_START_LAB4" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity
+            android:name=".Lab5WebViewActivity"
+            android:label="@string/lab5">
+            <intent-filter>
+                <action android:name="com.hubinqiang.lab.ACTION_START_LAB5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

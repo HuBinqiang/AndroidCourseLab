@@ -39,5 +39,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button4 = (Button) findViewById(R.id.lab4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.hubinqiang.lab.ACTION_START_LAB4");
+                startActivity(intent);
+            }
+        });
+
+        Button button5 = (Button) findViewById(R.id.lab5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.hubinqiang.lab.ACTION_START_LAB5");
+                startActivity(intent);
+            }
+        });
     }
 }

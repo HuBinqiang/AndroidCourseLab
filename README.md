@@ -65,3 +65,9 @@ Android Studio 安卓项目目录结构思维导图
 ![实验三之ActionMode](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab3_4.jpg)
 
 ![动画演示](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab3_4.gif)
+
+#### 实验四：扩展的 Activity
+
+![实验四](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab4.jpg)
+
+![动画演示](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab4.gif)
