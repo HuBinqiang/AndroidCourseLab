@@ -66,8 +66,16 @@ Android Studio 安卓项目目录结构思维导图
 
 ![动画演示](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab3_4.gif)
 
-#### 实验四：扩展的 Activity
+## 实验四：扩展的 Activity
 
 ![实验四](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab4.jpg)
 
 ![动画演示](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab4.gif)
+
+## 实验五：Intent
+
+![实验五](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab5_1.jpg)
+
+![实验五](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab5_2.jpg)
+
+![实验五](https://github.com/HuBinqiang/AndroidCourseLab/blob/master/img/lab5_3.jpg)

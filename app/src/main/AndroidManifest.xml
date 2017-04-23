@@ -90,26 +90,31 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Lab4PreferenceActivity"
             android:label="@string/lab4">
+            <intent-filter>
+                <action android:name="com.hubinqiang.lab.ACTION_START_LAB4" />
 
-            <action android:name="com.hubinqiang.lab.ACTION_START_LAB4" />
-
-            <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
-
         <activity
             android:name=".Lab5WebViewActivity"
             android:label="@string/lab5">
             <intent-filter>
                 <action android:name="com.hubinqiang.lab.ACTION_START_LAB5" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".Lab5WebViewMyActivity"
+            android:label="@string/lab5">
+            <intent-filter>
+                <action android:name="com.hubinqiang.lab.ACTION_START_WEBVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.hubinqiang.lab.START_WEBVIEW_CATEGORY" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
